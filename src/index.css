@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 42 33% 95%;  /* goldsmiths-beige */
+    --foreground: 0 0% 13%; /* goldsmiths-text */
+
+    --card: 0 0% 100%;  /* White */
+    --card-foreground: 0 0% 13%; /* goldsmiths-text */
+
+    --popover: 0 0% 100%; /* White */
+    --popover-foreground: 0 0% 13%; /* goldsmiths-text */
+
+    --primary: 219 54% 70%; /* goldsmiths-blue */
+    --primary-foreground: 0 0% 100%; /* White text */
+
+    --secondary: 39 100% 76%; /* goldsmiths-yellow */
+    --secondary-foreground: 0 0% 13%; /* goldsmiths-text */
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 39 100% 76%; /* goldsmiths-yellow */
+    --accent-foreground: 0 0% 13%; /* goldsmiths-text */
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 219 54% 70%; /* goldsmiths-blue */
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 13%; /* goldsmiths-text */
+    --foreground: 0 0% 100%; /* White text */
+
+    --card: 0 0% 13%; /* goldsmiths-text */
+    --card-foreground: 0 0% 100%; /* White text */
+
+    --popover: 0 0% 13%; /* goldsmiths-text */
+    --popover-foreground: 0 0% 100%; /* White text */
+
+    --primary: 219 54% 70%; /* goldsmiths-blue */
+    --primary-foreground: 0 0% 100%; /* White text */
+
+    --secondary: 39 100% 76%; /* goldsmiths-yellow */
+    --secondary-foreground: 0 0% 13%; /* goldsmiths-text */
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 39 100% 76%; /* goldsmiths-yellow */
+    --accent-foreground: 0 0% 13%; /* goldsmiths-text */
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 219 54% 70%; /* goldsmiths-blue */
+    --input: 217.2 32.6% 17.5%;
+    --ring: 219 54% 70%; /* goldsmiths-blue */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-graphik;
+  }
+}
+
+@keyframes marquee-vertical {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee-vertical {
+  animation: marquee-vertical 20s linear infinite;
+}
+
+.animate-marquee-vertical:hover {
+  animation-play-state: paused;
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
