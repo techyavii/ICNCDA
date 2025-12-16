@@ -7,6 +7,7 @@ import ImportantDatesSection from '@/components/ImportantDatesSection';
 import Footer from '@/components/Footer';
 import ImageCarousel from '@/components/ImageCarousel';
 import IndexingSection from '@/components/IndexingSection';
+import AssociatedPartners from '@/components/AssociatedPartners';
 
 const Index: React.FC = () => {
   const carouselImages = [
@@ -26,6 +27,7 @@ const Index: React.FC = () => {
       <ConferenceHighlights />
       <ConferenceTracks />
       <ImportantDatesSection />
+      <AssociatedPartners/>
       <Footer />
     </div>
   );
