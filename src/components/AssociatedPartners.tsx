@@ -39,12 +39,13 @@ const AssociatedPartners = () => {
   return (
     <section className="bg-gray-50 py-16 border-t">
       <div className="container mx-auto px-4">
+        <div className="text-center mb-12">
+          {/* Section Title */}
+          <h2 className="font-druk text-3xl md:text-4xl text-goldsmiths-text border-b-4 border-goldsmiths-blue pb-2 inline-block">
+            Associated Partners
+          </h2>
+        </div>
         
-        {/* Section Title */}
-        <h2 className="text-2xl md:text-3xl font-semibold text-center mb-10">
-          Associated Partners
-        </h2>
-
         {/* Logos Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 items-center justify-items-center">
           {partners.map((partner, index) => (
