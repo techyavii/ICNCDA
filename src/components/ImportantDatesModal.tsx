@@ -15,7 +15,7 @@ const ImportantDatesModal: React.FC = () => {
     { title: "Acceptance Notification Due", date: "30th January 2026" },
     { title: "Registration Due", date: "30th December 2025" },
     { title: "Camera Ready Submission", date: "30th January 2026" },
-    { title: "Conference Dates", date: "20th - 21st July 2026" }
+    { title: "Conference Dates", date: "22nd - 23rd July 2026" }
   ];
 
   return (

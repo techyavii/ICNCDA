@@ -1,5 +1,7 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { Button } from './ui/button';
 
 const About: React.FC = () => {
   return (
@@ -21,7 +23,11 @@ const About: React.FC = () => {
           <p className="font-publico text-lg text-goldsmiths-text leading-relaxed text-justify">
             <strong>ICNCDA invites original research papers, case studies, and industrial experiences that address current trends, breakthroughs, and future directions in the interdisciplinary areas of networks, computing systems, and data analytics.</strong>
           </p>
+          <Link to="https://cmt3.research.microsoft.com/ICNCDA2026" >
+            <Button className="mt-4">Paper Submission Link</Button>
+          </Link>
         </div>
+        
       </div>
     </section>
   );

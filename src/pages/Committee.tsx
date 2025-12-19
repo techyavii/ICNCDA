@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 
 const Committee = () => {
   const generalChairs = [
-  { name: "Dr Vishal Krishna Singh", affiliation: "University of Essex, UK" },
+  // { name: "Dr Vishal Krishna Singh", affiliation: "University of Essex, UK" },
   { name: "Prof. Martin Reed", affiliation: "University of Essex, UK" },
   { name: "Prof. Liangxiu Han", affiliation: "Manchester Metropolitan University, UK" },
 ];
@@ -16,8 +16,8 @@ const honoraryChairs = [
 const organisingChairs = [
   { name: "Dr. Vishal Krishna Singh", affiliation: "University of Essex, UK" },
   // *Yet to be confirmed
-  { name: "Prof. Nagham Saeed", affiliation: "University of West London, UK" },
-  { name: "Dr. Sandra Cespedes", affiliation: "Concordia University, Canada" },
+  // { name: "Prof. Nagham Saeed", affiliation: "University of West London, UK" },
+  // { name: "Dr. Sandra Cespedes", affiliation: "Concordia University, Canada" },
 ];
 
 const technicalProgramChairs = [

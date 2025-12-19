@@ -63,6 +63,18 @@ const ConferenceTracks: React.FC = () => {
         "Financial, Industrial, and Environmental Data Analytics",
         "Human–Computer Interaction and Visualization"
       ]
+    },
+    {
+      id: 6,
+      title: "Transparent, Accountable and Responsible AI use cases",
+      icon: Rocket,
+      topics: [
+        // "Smart Cities and Intelligent Infrastructure",
+        // "Autonomous Systems and Robotics",
+        // "Healthcare Informatics and Bio-Computing",
+        // "Financial, Industrial, and Environmental Data Analytics",
+        // "Human–Computer Interaction and Visualization"
+      ]
     }
   ];
 

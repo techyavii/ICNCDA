@@ -76,6 +76,17 @@ const CallForPapers: React.FC = () => {
                   <li>Human–Computer Interaction and Visualization</li>
                 </ul>
               </div>
+
+              <div>
+                <h4 className="font-druk text-xl">Track 6: Transparent, Accountable and Responsible AI use cases</h4>
+                <ul className="list-disc pl-6 space-y-1 font-graphik mt-2">
+                  {/* <li>Smart Cities and Intelligent Infrastructure</li>
+                  <li>Autonomous Systems and Robotics</li>
+                  <li>Healthcare Informatics and Bio-Computing</li>
+                  <li>Financial, Industrial, and Environmental Data Analytics</li>
+                  <li>Human–Computer Interaction and Visualization</li> */}
+                </ul>
+              </div>
             </div>
           </div>
 
@@ -86,7 +97,7 @@ const CallForPapers: React.FC = () => {
               <li>Acceptance Notification Due: <strong>30th January 2026</strong></li>
               <li>Registration Due: <strong>30th December 2025</strong></li>
               <li>Camera Ready Submission: <strong>30th January 2026</strong></li>
-              <li>Conference Dates: <strong>20th - 21st July 2026</strong></li>
+              <li>Conference Dates: <strong>22nd - 23rd July 2026</strong></li>
             </ul>
           </div> */}
 

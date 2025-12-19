@@ -18,7 +18,7 @@ const PaperSubmission: React.FC = () => {
               Kindly ensure that your paper is formatted as per Springer Guidelines (not exceeding 12 pages written in A4 size). Please refer the attached springer template for preparation of your paper.
             </li>
             <li className="font-graphik">
-              All papers must be submitted online via <Link to={"https://cmt3.research.microsoft.com/DASGRI2026"} className='text-blue-700 underline'>Microsoft CMT Submission Portal</Link>.
+              All papers must be submitted online via <Link to={"https://cmt3.research.microsoft.com/ICNCDA2026"} className='text-blue-700 underline'>Microsoft CMT Submission Portal</Link>.
             </li>
             <li className="font-graphik">
               All submissions will be thoroughly peer-reviewed by experts based on originality, significance, and clarity.
