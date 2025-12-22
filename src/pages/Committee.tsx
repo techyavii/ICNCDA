@@ -126,19 +126,6 @@ const technicalProgramCommittee = [
             <CommitteeSection title="Advisory Committee" members={advisoryCommittee} />
             <CommitteeSection title="Technical Program Committee" members={technicalProgramCommittee} />
 
-            <div className="mt-8">
-              <h3 className="font-druk text-xl md:text-2xl text-goldsmiths-text mb-4 border-b-2 border-goldsmiths-blue pb-2">
-                Advisory Committee and Technical Program Committee
-              </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {advisoryCommittee.map((member, index) => (
-                  <div key={index} className="bg-goldsmiths-beige p-3 rounded">
-                    <p className="font-graphik font-bold text-goldsmiths-text text-sm">{member.name}</p>
-                    <p className="font-publico text-xs text-goldsmiths-text">{member.affiliation}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </div>
