@@ -62,7 +62,6 @@ const advisoryCommittee = [
   { name: "Dr. Rab Nawaz", affiliation: "University of Essex, UK" },
   { name: "Dr. Vijay Bhaskar Semwal", affiliation: "MANIT Bhopal, India" },
 ];
-
 const technicalProgramCommittee = [
   { name: "Prof. Carlos Rompante Da Cunha", affiliation: "Administração e Turismo, Portugal" },
   { name: "Prof. Hongbo Du", affiliation: "University of Buckingham, UK" },
@@ -88,6 +87,32 @@ const technicalProgramCommittee = [
   { name: "Abhishek Swaroop", affiliation: "Bhagwan Parshuram Institute of Technology, India" },
   { name: "Giorgos Karagiannidis", affiliation: "Aristotle University of Thessaloniki, Greece" },
   { name: "Fides del Castillo", affiliation: "De La Salle University, Philippines" },
+  { name: "Nuno M. Garcia", affiliation: "University of Beira Interior, Portugal" },
+  { name: "Jaafar Alghazo", affiliation: "Virginia Military Institute, USA" },
+  { name: "Daniel Nogueira", affiliation: "University of Minho, Brazil" },
+  { name: "Yenumula B Reddy", affiliation: "Grambling State University, USA" },
+  { name: "Alireza Jolfaei", affiliation: "Macquarie University, Australia" },
+  { name: "Placido Rogerio Pinheiro", affiliation: "University of Fortaleza, Brazil" },
+  { name: "Daniela Clara Moraru", affiliation: "University of Luxembourg, Luxembourg" },
+  { name: "Dr. Rab Nawaz", affiliation: "University of Essex, UK" },
+  { name: "Dr. Vijay Bhaskar Semwal", affiliation: "MANIT Bhopal, India" },
+  { name: "Kashif Saleem", affiliation: "Universiti Teknologi Malaysia, Riyadh, Saudi Arabia" },
+  { name: "Kemal Polat", affiliation: "Abant Izzet Baysal University, Turkey" },
+  { name: "Juhriyansyah Dalle", affiliation: "Universitas Lambung Mangkurat, Indonesia" },
+  { name: "Sarada Prasad Gochhayat", affiliation: "IIT Jammu, India" },
+  { name: "Ilya Levin", affiliation: "Tel Aviv University, Israel" },
+  { name: "Lalit Garg", affiliation: "University of Malta, Msida, Malta" },
+  { name: "Arij Naser Abougreen", affiliation: "University of Tripoli, Libya" },
+  { name: "Iwan Adhicandra", affiliation: "University of Sydney, Australia" },
+  { name: "Meng Li", affiliation: "Hefei University of Technology, China" },
+  { name: "Alfredo Grieco", affiliation: "Politecnico di Bari, Italy" },
+  { name: "Quoc-Viet Pham", affiliation: "Pusan National University, South Korea" },
+  { name: "Tu Nguyen", affiliation: "Kennesaw State University, USA" },
+  { name: "Christos Douligeris", affiliation: "University of Piraeus, Greece" },
+  { name: "Assunta Di Vaio", affiliation: "University of Naples Parthenope, Italy" },
+  { name: "Daniel Lucky Michael", affiliation: "San Francisco Bay University, USA" },
+  { name: "Md Sazol Ahmmed", affiliation: "Missouri University of Science and Technology, USA" },
+  { name: "Rajani Kumari Vaddepalli", affiliation: "Callaway Golf, USA" },
 ];
 
 
