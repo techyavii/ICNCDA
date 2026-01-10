@@ -26,7 +26,7 @@ const IndexingSection: React.FC = () => {
             ICNCDA 2026 Conference Information
           </h2>
           <p className="text-blue-600 font-semibold text-lg">
-            [ 22-23 July 2026 - University of Essex, England, UK ]
+            [ July 29-30, 2026 - University of Essex, England, UK ]
           </p>
         </div>
 

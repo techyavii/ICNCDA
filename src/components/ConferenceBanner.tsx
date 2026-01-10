@@ -34,7 +34,7 @@ const ConferenceBanner = () => {
           </p>
           <div className="flex items-center justify-center text-sm md:text-base mb-2">
             <Calendar className="mr-2" size={16} />
-            <p>22-23 July, 2026</p>
+            <p>July 29-30, 2026</p>
           </div>
           <p className="text-sm md:text-base font-medium text-yellow-300">
             Premier global forum for networking, computing, and data-driven technologies
