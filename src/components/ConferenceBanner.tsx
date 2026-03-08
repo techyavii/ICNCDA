@@ -19,7 +19,7 @@ const ConferenceBanner = () => {
           <img 
             src="Logo.png" 
             alt="ICNCDA Logo" 
-            className="h-16 md:h-20 w-auto"
+            className="h-24 md:h-24 w-auto"
           />
         </div>
 
@@ -47,14 +47,14 @@ const ConferenceBanner = () => {
           <img
             src="/lovable-uploads/logo.png"
             alt="University of Essex"
-            className="h-12 md:h-16 w-auto bg-white rounded-md"
+            className="h-16 md:h-16 w-auto bg-white rounded-md"
           />
         </div>
          <div className="flex justify-center">
             <img 
               src="/partner/springer.png" 
               alt="Academic Indexing Services - Web of Science, Scopus, IET Inspec, dblp" 
-              className="h-12 md:h-16 w-auto rounded-md"
+              className="h-16 md:h-16 w-auto rounded-md"
             />
           </div>
           </div>
