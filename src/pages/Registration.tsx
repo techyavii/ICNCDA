@@ -158,8 +158,8 @@ const Registration: React.FC = () => {
                 <thead>
                   <tr className="bg-[#f9f5e9]">
                     <th className="border border-gray-300 px-4 py-2 text-left">Category</th>
-                    <th className="border border-gray-300 px-4 py-2 text-left">EARLY REGISTRATION (Before  15th May 2026)</th>
-                    <th className="border border-gray-300 px-4 py-2 text-left">LATE REGISTRATION (After  15th May 2026)</th>
+                    <th className="border border-gray-300 px-4 py-2 text-left">EARLY REGISTRATION (Before 15th May 2026)</th>
+                    <th className="border border-gray-300 px-4 py-2 text-left">LATE REGISTRATION (After 15th May 2026)</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -238,7 +238,7 @@ const Registration: React.FC = () => {
                   <CreditCard className="h-10 w-10 mb-4 text-[#001324]" />
                   <h3 className="font-bold text-lg mb-2">Registration via Razorpay</h3>
                   <p className="text-sm text-center text-gray-500 mb-2">(only for SAARC Nations)</p>
-                  <a href='https://rzp.io/rzp/UTwHWlmV'><Button className="mt-2 bg-[#001324] hover:bg-[#333333]">Pay with Razorpay</Button></a>
+                  <a href='https://rzp.io/rzp/xkZjXeMm'><Button className="mt-2 bg-[#001324] hover:bg-[#333333]">Pay with Razorpay</Button></a>
                 </CardContent>
               </Card>
               <Card>
