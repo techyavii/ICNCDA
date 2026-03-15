@@ -230,7 +230,7 @@ const Registration: React.FC = () => {
                 <CardContent className="flex flex-col items-center justify-center p-6">
                   <CreditCard className="h-10 w-10 mb-4 text-[#001324]" />
                   <h3 className="font-bold text-lg mb-2">Registration via Stripe</h3>
-                  <Link to="/checkout"><Button className="mt-2 bg-[#001324] hover:bg-[#333333]">Pay with Stripe</Button></Link>
+                  <Link to="https://buy.stripe.com/5kQ3cxdLs5gIggU6Xz0000j"><Button className="mt-2 bg-[#001324] hover:bg-[#333333]">Pay with Stripe</Button></Link>
                 </CardContent>
               </Card>
               <Card>
