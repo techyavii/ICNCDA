@@ -113,6 +113,12 @@ const technicalProgramCommittee = [
   { name: "Daniel Lucky Michael", affiliation: "San Francisco Bay University, USA" },
   { name: "Md Sazol Ahmmed", affiliation: "Missouri University of Science and Technology, USA" },
   { name: "Rajani Kumari Vaddepalli", affiliation: "Callaway Golf, USA" },
+  {name: "Md Mehedi Hassan Melon",affiliation: "University of the Cumberlands, USA"},
+  {name: "Rashad Bakhshizada",affiliation: "Missouri University of Science and Technology, Rolla, MO, USA"},
+  {name: "Dipankar Nandy",affiliation: "Lamar University, Texas, USA"},
+  {name: "MD Badsha Nuruzzaman Shahin",affiliation: "San Francisco Bay University, Fremont, California, USA"},
+  {name: "S A Sabbirul Mohosin Naim",affiliation: "San Francisco Bay University, Fremont, California, USA"},
+  {name: "Mr. Jahangir Shekh",affiliation: "Murray State University, USA"}
 ];
 
 
