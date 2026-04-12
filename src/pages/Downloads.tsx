@@ -8,22 +8,22 @@ const Downloads = () => {
   const downloadItems = [
     {
       name: 'Checklist',
-      link: 'https://res.cloudinary.com/da0yxppx2/image/upload/v1748602693/DASGRI%20adroid%20connectz/zfbh444d95upzrdjzym3.pdf',
+      link: '/public/Checklist.pdf',
       icon: <FileText className="mr-2" size={18} />
     },
     {
       name: 'Manuscript guidelines',
-      link: 'https://res.cloudinary.com/da0yxppx2/image/upload/v1748602694/DASGRI%20adroid%20connectz/a53rrfp19k1xgj97rrxb.pdf',
+      link: '/public/Manuscript_Guidelines.pdf',
       icon: <FileText className="mr-2" size={18} />
     },
     {
       name: 'Springer Word Template',
-      link: 'https://resource-cms.springernature.com/springer-cms/rest/v1/content/19238648/data/v1',
+      link: '/public/Springer_Word_Template.zip',
       icon: <FileText className="mr-2" size={18} />
     },
     {
       name: 'Springer Latex Template',
-      link: 'https://resource-cms.springernature.com/springer-cms/rest/v1/content/19238706/data/v1',
+      link: '/public/Springer_Latex_Template.zip',
       icon: <FileText className="mr-2" size={18} />
     },
   ];
