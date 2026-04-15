@@ -8,22 +8,22 @@ const Downloads = () => {
   const downloadItems = [
     {
       name: 'Checklist',
-      link: '/public/Checklist.pdf',
+      link: '/Checklist.pdf',
       icon: <FileText className="mr-2" size={18} />
     },
     {
       name: 'Manuscript guidelines',
-      link: '/public/Manuscript_Guidelines.pdf',
+      link: '/Manuscript_Guidelines.pdf',
       icon: <FileText className="mr-2" size={18} />
     },
     {
       name: 'Springer Word Template',
-      link: '/public/Springer_Word_Template.zip',
+      link: '/Springer_Word_Template.zip',
       icon: <FileText className="mr-2" size={18} />
     },
     {
       name: 'Springer Latex Template',
-      link: '/public/Springer_Latex_Template.zip',
+      link: '/Springer_Latex_Template.zip',
       icon: <FileText className="mr-2" size={18} />
     },
   ];
