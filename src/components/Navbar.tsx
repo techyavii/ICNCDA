@@ -62,6 +62,7 @@ const Navbar: React.FC = () => {
     { name: 'Committee', href: '/committee' },
     { name: 'Registration', href: '/registration' },
     { name: 'Publications', href: '/publications' },
+    { name: 'Invited Speakers', href: '/invited-speakers' },
     { name: 'Conference Venue', href: '/conference-venue' },
     { name: 'Downloads', href: '/downloads' },
     { name: 'Privacy Policy', href: '/privacy-policy' }
