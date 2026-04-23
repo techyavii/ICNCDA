@@ -8,6 +8,7 @@ import Footer from '@/components/Footer';
 import ImageCarousel from '@/components/ImageCarousel';
 import IndexingSection from '@/components/IndexingSection';
 import AssociatedPartners from '@/components/AssociatedPartners';
+import KeynoteSpeakers from '@/components/KeynoteSpeakers';
 
 const Index: React.FC = () => {
   const carouselImages = [
@@ -27,6 +28,7 @@ const Index: React.FC = () => {
       <ConferenceHighlights />
       <ConferenceTracks />
       <ImportantDatesSection />
+      <KeynoteSpeakers />
       <AssociatedPartners/>
       <Footer />
     </div>

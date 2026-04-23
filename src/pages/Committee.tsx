@@ -29,6 +29,11 @@ const technicalProgramChairs = [
   { name: "Dr. Ferheen Ayaz", affiliation: "City St George's, University of London, UK" },
 ];
 
+  const coConveners = [
+    { name: "Janardhana Naidu Kola", affiliation: "Director of Business Intelligence, Automatic Data Processing, USA" },
+    { name: "Venkata Madhu Prateek Reddy Kambala", affiliation: "ecoATM LLC, USA" }
+  ];
+
 const publicationChairs = [
   { name: "Dr. Zdzislaw Polkowski", affiliation: "The Karkonosze University of Applied Sciences, Poland" },
   { name: "Dr. Muge Sayit", affiliation: "University of Essex, UK" },
@@ -152,6 +157,7 @@ const technicalProgramCommittee = [
             <CommitteeSection title="Organising Chair(s)" members={organisingChairs} />
             {/* <CommitteeSection title="Conference Chair(s)" members={conferenceChairs} /> */}
             <CommitteeSection title="Technical Program Chair(s)" members={technicalProgramChairs} />
+             <CommitteeSection title="Co-Convener(s)" members={coConveners} />
             <CommitteeSection title="Publication Chair(s)" members={publicationChairs} />
             <CommitteeSection title="Awards Chair(s)" members={awardsChairs} />
             <CommitteeSection title="Advisory Committee" members={advisoryCommittee} />

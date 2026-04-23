@@ -16,6 +16,19 @@ const InvitedSpeakers = () => {
     profilePic: "invited-speakers/nikhileswar.jpeg",
     country: "",
     city: "",
+    },
+    {
+      name: "Vivek Venkatesan",
+      designation: "IEEE Senior Member",
+      company: "The Vanguard Group, USA",
+      experience: "",
+      email: "vvivek4ever@gmail.com",
+      conferenceLink: "",
+      titleOfTalk: "",
+      abstract: "",
+      profilePic: "invited-speakers/vivek_venkatesan.jpeg",
+      country: "USA",
+      city: "",
     }
   
 ];
