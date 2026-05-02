@@ -21,10 +21,10 @@ const KeynoteSpeakers = () => {
   //   profilePic: "keynotes/nikhil_deshpande.jpeg",
   // },
   {
-    name: "Prof. Sanjaya Kumar Panda",
-    designation: "Assistant Professor (CSE)",
-    company: "NIT Warangal",
-    profilePic: "keynotes/sanjaya_panda.jpg",
+      name: "Prof. Shivani Bali",
+      designation: "Professor",
+      company: "Jindal School of Banking & Finance, O.P. Jindal Global University, India",
+      profilePic: "keynotes/Shivani.jpeg"
   }
   ];
 
