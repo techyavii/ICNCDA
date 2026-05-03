@@ -31,7 +31,8 @@ const technicalProgramChairs = [
 
   const coConveners = [
     { name: "Janardhana Naidu Kola", affiliation: "Director of Business Intelligence, Automatic Data Processing, USA" },
-    { name: "Venkata Madhu Prateek Reddy Kambala", affiliation: "ecoATM LLC, USA" }
+    { name: "Venkata Madhu Prateek Reddy Kambala", affiliation: "ecoATM LLC, USA" },
+    { name: "Sujatha Lakshmi Narra", affiliation: "Robinhood Markets, USA" }
   ];
 
 const publicationChairs = [
