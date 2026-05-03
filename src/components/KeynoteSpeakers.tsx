@@ -20,6 +20,12 @@ const KeynoteSpeakers = () => {
   //   company: "University of Nottingham",
   //   profilePic: "keynotes/nikhil_deshpande.jpeg",
   // },
+   {
+    name: "Prof. Sanjaya Kumar Panda",
+    designation: "Assistant Professor (CSE)",
+    company: "NIT Warangal",
+    profilePic: "keynotes/sanjaya_panda.jpg"
+   },
   {
       name: "Prof. Shivani Bali",
       designation: "Professor",
