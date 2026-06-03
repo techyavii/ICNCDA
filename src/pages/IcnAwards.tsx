@@ -304,7 +304,7 @@ const specialRecognitionAwards = [
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold text-black">30th May 2026</p>
+                <p className="text-2xl font-bold text-black">20th June 2026</p>
               </CardContent>
             </Card>
             <Card className="border border-gray-200 bg-white shadow-sm">
