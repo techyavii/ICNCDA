@@ -23,6 +23,7 @@ import ImportantDatesModal from "./components/ImportantDatesModal";
 import CheckoutForm from './pages/Checkout';
 import InvitedSpeakers from './pages/InvitedSpeaker';
 import IcnAwards from './pages/IcnAwards';
+import KeynoteSpeakers from './pages/KeynoteSpeakers';
 
 const queryClient = new QueryClient();
 
@@ -52,6 +53,7 @@ const App: React.FC = () => (
               <Route path="/downloads" element={<Downloads />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/awards" element={<IcnAwards />} />
+              <Route path="/keynote-speakers" element={<KeynoteSpeakers />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
