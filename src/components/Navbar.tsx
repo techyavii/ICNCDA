@@ -77,7 +77,7 @@ const Navbar: React.FC = () => {
       }`}
       style={{ backgroundColor: '#fff' }}
     >
-      <div className="container mx-auto px-4 flex justify-between items-center h-16">
+      <div className="max-w-screen-2xl mx-auto px-6 flex justify-between items-center h-16">
         <Link to="/" className="text-xl font-bold font-druk text-black">ICNCDA 2026</Link>
         
         <div className="hidden lg:flex space-x-2">
