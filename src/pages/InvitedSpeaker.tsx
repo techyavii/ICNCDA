@@ -29,6 +29,34 @@ const InvitedSpeakers = () => {
       profilePic: "invited-speakers/vivek_venkatesan.jpeg",
       country: "USA",
       city: "",
+    },
+    {
+      name: "Lalith Chandra Bandaru",
+      designation: "ITDS Architect",
+      company: "Sage Group Technologies Inc",
+      experience: "10+ Years",
+      email: "LALITHCHANDRA@LIVE.COM",
+      conferenceLink: "",
+      titleOfTalk: "From CRM to Intelligent Enterprise: The Next Wave of Digital Transformation",
+      abstract:
+        "How Cloud, Automation, Data, and AI are reshaping every enterprise business process. This session examines market forces demanding intelligent enterprise strategies, the Salesforce platform from architecture to AI capabilities, real production metrics from Agentforce deployments, and a practical five-pillar framework for responsible AI adoption.",
+      profilePic: "invited-speakers/lalith_chandra_bandaru.jpeg",
+      country: "USA",
+      city: "",
+    },
+    {
+      name: "Mohammed Shakeer Bandrevu",
+      designation: "Senior Software Developer",
+      company: "Tata Consultancy Services",
+      experience: "10+ Years",
+      email: "shakeersha786@gmail.com",
+      conferenceLink: "",
+      titleOfTalk: "AI-Powered Enterprise Operations: How ServiceNow Is Becoming the Control Tower for Multi-Cloud Environments",
+      abstract:
+        "As enterprises adopt multi-cloud strategies, managing operations across diverse platforms becomes increasingly complex. ServiceNow is emerging as an AI-powered control tower that unifies workflows, automates incident resolution, enhances visibility, and optimizes resource management. With the integration of Agentic AI, autonomous digital agents can proactively monitor systems, coordinate cross-platform actions, make context-aware decisions, and resolve issues with minimal human intervention. This enables organizations to improve efficiency, reduce operational risks, strengthen governance, and accelerate digital transformation across dynamic cloud environments.",
+      profilePic: "invited-speakers/mohammed_shakeer_bandrevu.jpeg",
+      country: "India",
+      city: "",
     }
   
 ];
