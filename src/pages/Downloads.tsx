@@ -27,6 +27,26 @@ const Downloads = () => {
       icon: <FileText className="mr-2" size={18} />
     },
     {
+      name: 'PowerPoint Template (Android)',
+      link: '/ICNCDA_2026_PPT_Template_Adroid.pptx',
+      icon: <FileText className="mr-2" size={18} />
+    },
+    {
+      name: 'PowerPoint Template (Android PDF)',
+      link: '/ICNCDA_2026_PPT_Template_Adroid.pdf',
+      icon: <FileText className="mr-2" size={18} />
+    },
+    {
+      name: 'PowerPoint Template (Springer)',
+      link: '/ICNCDA_2026_PPT_Template_Springer.pptx',
+      icon: <FileText className="mr-2" size={18} />
+    },
+    {
+      name: 'PowerPoint Template (Springer PDF)',
+      link: '/ICNCDA_2026_PPT_Template_Springer.pdf',
+      icon: <FileText className="mr-2" size={18} />
+    },
+    {
       name: 'Licence Form',
       link: '/Licence_Form.docx',
       icon: <FileText className="mr-2" size={18} />

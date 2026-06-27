@@ -146,7 +146,32 @@ const InvitedSpeakers = () => {
     country: "United States",
     city: "",
 },
-  
+{
+  name: "Milan Dudhatra",
+  designation: "Software Engineer, Independent Researcher",
+  company: "Independent Researcher",
+  experience: "7+ Years",
+  email: "milangdudhatra@gmail.com",
+  conferenceLink: "https://www.icncda.co.uk/",
+  titleOfTalk: "Predict Before You Repair: The Future of Failure Prevention in Distributed Systems",
+  abstract: "This keynote explores the evolution of distributed systems from reactive failure management to predictive and autonomous reliability engineering. It discusses how AI-assisted operations (AIOps), observability, event-driven architectures, and self-healing cloud platforms can predict failures before they occur, minimize downtime, and improve the resilience of large-scale cloud infrastructure. Drawing from real-world experience in fleet-scale systems, the session highlights modern approaches to predictive reliability, intelligent automation, and the future of autonomous infrastructure.",
+  profilePic: "keynote-speakers/milan-dudhatra.jpg",
+  country: "United States",
+  city: "",
+},
+  {
+  name: "Mohammad Bani-Doumi",
+  designation: "Assistant Professor, Faculty of Information Technology",
+  company: "Applied Science Private University (ASU)",
+  experience: "10 Years",
+  email: "m_banidoumi@asu.edu.jo",
+  conferenceLink: "https://www.icncda.co.uk/",
+  areaOfResearch:
+    "Artificial Intelligence, Natural Language Processing, Recommender Systems, Sentiment Analysis",
+  profilePic: "invited-speakers/mohammad-bani-doumi.jpg",
+  country: "Jordan",
+  city: "Amman",
+}
 ];
 
   return (
