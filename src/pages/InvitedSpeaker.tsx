@@ -57,7 +57,20 @@ const InvitedSpeakers = () => {
       profilePic: "invited-speakers/mohammed_shakeer_bandrevu.jpeg",
       country: "India",
       city: "",
-    }
+    },
+    {
+        name: "Mohammad Bani-Doumi",
+        designation: "Assistant Professor, Faculty of Information Technology",
+        company: "Applied Science Private University (ASU)",
+        experience: "10 Years",
+        email: "m_banidoumi@asu.edu.jo",
+        conferenceLink: "https://www.icncda.co.uk/",
+        areaOfResearch:
+          "Artificial Intelligence, Natural Language Processing, Recommender Systems, Sentiment Analysis",
+        profilePic: "invited-speakers/mohammad-bani-doumi.jpeg",
+        country: "Jordan",
+        city: "Amman",
+      }
   
 ];
 
