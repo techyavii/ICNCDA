@@ -63,8 +63,8 @@ const Navbar: React.FC = () => {
     { name: 'Awards', href: '/awards' },
     { name: 'Registration', href: '/registration' },
     { name: 'Publications', href: '/publications' },
-    { name: 'Invited Speakers', href: '/invited-speakers' },
-    { name: 'Keynote Speakers', href: '/keynote-speakers' },
+    { name: 'Industry Invited Speakers', href: '/invited-speakers' },
+    { name: 'Industry Keynote Speakers', href: '/keynote-speakers' },
     { name: 'Conference Venue', href: '/conference-venue' },
     { name: 'Downloads', href: '/downloads' },
     { name: 'Privacy Policy', href: '/privacy-policy' }
