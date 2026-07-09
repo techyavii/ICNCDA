@@ -7,6 +7,11 @@ import { Button } from '@/components/ui/button';
 const Downloads = () => {
   const downloadItems = [
     {
+      name: 'Paper Presentation Schedule',
+      link: '/Paper_Presentation_Schedule_ICNCDA 2026.pdf',
+      icon: <FileText className="mr-2" size={18} />
+    },
+    {
       name: 'Checklist',
       link: '/Checklist.pdf',
       icon: <FileText className="mr-2" size={18} />
@@ -27,12 +32,12 @@ const Downloads = () => {
       icon: <FileText className="mr-2" size={18} />
     },
     {
-      name: 'PowerPoint Template (Android)',
+      name: 'PowerPoint Template (Adroid)',
       link: '/ICNCDA_2026_PPT_Template_Adroid.pptx',
       icon: <FileText className="mr-2" size={18} />
     },
     {
-      name: 'PowerPoint Template (Android PDF)',
+      name: 'PowerPoint Template (Adroid PDF)',
       link: '/ICNCDA_2026_PPT_Template_Adroid.pdf',
       icon: <FileText className="mr-2" size={18} />
     },
