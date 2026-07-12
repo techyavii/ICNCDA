@@ -186,6 +186,20 @@ const InvitedSpeakers = () => {
   profilePic: "keynote-speakers/venkata-m-kancherla.jpeg",
   country: "India",
   city: "",
+},
+{
+  name: "Rowsan Jahan Bhuiyan",
+  designation: "Doctoral Researcher in Artificial Intelligence and Machine Learning",
+  company: "University of the Potomac",
+  experience: "14 Years",
+  email: "rowsan.bhuiyan@student.potomac.edu",
+  conferenceLink: "https://www.icncda.co.uk/",
+  titleOfTalk: "Transforming Healthcare with Artificial Intelligence: Recent Advances in Medical Diagnostics and Predictive Analytics",
+  abstract: "This keynote presents a comparative evaluation of machine learning algorithms for breast cancer detection, highlighting their predictive accuracy and clinical effectiveness. It demonstrates how AI can enable early diagnosis, enhance clinical decision-making, reduce healthcare costs, improve patient survival, and promote equitable, data-driven healthcare systems.",
+  profile: "Rowsan Jahan Bhuiyan is a Doctoral Researcher in Artificial Intelligence at the University of the Potomac, USA. Her research focuses on machine learning, explainable AI, clinical decision support systems, and early cancer detection. She develops AI-driven healthcare solutions that improve diagnostic accuracy, support precision medicine, and advance intelligent, data-driven healthcare for patients and medical institutions.",
+  profilePic: "keynote-speakers/rowsan-jahan-bhuiyan.jpeg",
+  country: "USA",
+  city: "",
 }
 ];
 
