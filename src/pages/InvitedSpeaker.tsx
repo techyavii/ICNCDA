@@ -70,7 +70,46 @@ const InvitedSpeakers = () => {
         profilePic: "invited-speakers/mohammad-bani-doumi.jpeg",
         country: "Jordan",
         city: "Amman",
-      }
+      },
+      {
+    name: "Amit Kumar",
+    designation: "Principal Software Engineer",
+    company: "AT&T Services Inc.",
+    experience: "22 Years",
+    email: "amit.dumian@gmail.com",
+    conferenceLink: "https://www.icncda.co.uk/",
+    areaOfResearch:
+      "Distributed Systems, Cloud Computing, Enterprise Software Engineering, Scalable System Architecture",
+    profilePic: "invited-speakers/amit-kumar.jpeg",
+    country: "",
+    city: "",
+  },
+  {
+    name: "Amiya Ranjan Mohanty",
+    designation: "Engineering Manager / Enterprise Architect",
+    company: "CitiusTech",
+    experience: "22 Years",
+    email: "mohanty127@outlook.com",
+    conferenceLink: "https://www.icncda.co.uk/",
+    areaOfResearch:
+      "Enterprise Architecture, Cloud Computing, Distributed Systems, API Modernization, Cybersecurity, DevOps, Data Engineering, Artificial Intelligence",
+    profilePic: "invited-speakers/amiya-ranjan-mohanty.jpeg",
+    country: "",
+    city: "",
+  },
+  {
+    name: "Susant Kumar Sahoo",
+    designation: "Advisor Application Designer",
+    company: "Gainwell Technologies",
+    experience: "21 Years",
+    email: "ksusant@rediffmail.com",
+    conferenceLink: "https://www.icncda.co.uk/",
+    areaOfResearch:
+      "Enterprise Architecture, Healthcare IT, Artificial Intelligence, Predictive Analytics, Decision Support Systems, Application Modernization, Cloud Computing",
+    profilePic: "invited-speakers/susant-kumar-sahoo.jpeg",
+    country: "",
+    city: "",
+  }
   
 ];
 
