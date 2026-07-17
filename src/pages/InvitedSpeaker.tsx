@@ -109,7 +109,20 @@ const InvitedSpeakers = () => {
     profilePic: "invited-speakers/susant-kumar-sahoo.jpeg",
     country: "",
     city: "",
-  }
+  },
+  {
+  name: "Praveen Chaitanya Jakku",
+  designation: "DevOps Engineer",
+  company: "HHS Technology Group",
+  experience: "8+ Years",
+  email: "pcjakku@gmail.com",
+  conferenceLink: "https://www.icncda.co.uk/",
+  areaOfResearch:
+    "AI-Driven Security, Zero Trust Architecture, Quantum-Resilient Security, Cloud-Native Systems, DevSecOps, AWS, Kubernetes, Infrastructure Automation, Cybersecurity, Cloud Platform Reliability",
+  profilePic: "invited-speakers/praveen-chaitanya-jakku.jpeg",
+  country: "",
+  city: "",
+}
   
 ];
 
