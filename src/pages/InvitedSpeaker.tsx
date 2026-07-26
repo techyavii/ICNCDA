@@ -132,7 +132,7 @@ const InvitedSpeakers = () => {
   conferenceLink: "https://www.icncda.co.uk/",
   areaOfResearch:
     "ML Systems, LLM Inference, GPU Performance Profiling, Serving Optimization, KV Cache Analysis, AI Infrastructure",
-  profilePic: "invited-speakers/a.jpeg",
+  profilePic: "invited-speakers/sai-saketh-cherukuri.jpeg",
   country: "",
   city: "",
 }
