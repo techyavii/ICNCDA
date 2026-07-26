@@ -45,6 +45,7 @@ const publicationChairs = [
 
 const coPublicationChairs = [
   { name: "Naga Murali Krishna Koneru", affiliation: "Hexaware Technologies Inc, USA" },
+  { name: "Mahendrakumar Kalal", affiliation: "O.C.Tanner, USA" },
   { name: "Santhosh Reddy BasiReddy", affiliation: "USAA, Aubrey, Tx , USA" },
 ];
 
