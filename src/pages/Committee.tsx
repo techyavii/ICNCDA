@@ -43,6 +43,11 @@ const publicationChairs = [
   { name: "Dr. Rahmat Ullah", affiliation: "University of Essex, UK" },
 ];
 
+const coPublicationChairs = [
+  { name: "Naga Murali Krishna Koneru", affiliation: "Hexaware Technologies Inc, USA" },
+  { name: "Santhosh Reddy BasiReddy", affiliation: "USAA, Aubrey, Tx , USA" },
+];
+
 const awardsChairs = [
   { name: "Dr. Amit Singh", affiliation: "University of Essex, UK" },
   { name: "Dr. Valentina Emilia Balas", affiliation: "Aurel Vlaicu University of Arad, Romania" },
@@ -69,6 +74,7 @@ const advisoryCommittee = [
   { name: "Muhibul Haque Bhuyan", affiliation: "Southeast University, Bangladesh" },
   { name: "Dr. Rab Nawaz", affiliation: "University of Essex, UK" },
   { name: "Dr. Vijay Bhaskar Semwal", affiliation: "MANIT Bhopal, India" },
+  { name: "Mallesh Deshapaga", affiliation: "Vardhaman College of Engineering, India" },
 ];
 const technicalProgramCommittee = [
   { name: "Prof. Carlos Rompante Da Cunha", affiliation: "Administração e Turismo, Portugal" },
@@ -162,6 +168,7 @@ const technicalProgramCommittee = [
             <CommitteeSection title="Technical Program Chair(s)" members={technicalProgramChairs} />
              <CommitteeSection title="Co-Convener(s)" members={coConveners} />
             <CommitteeSection title="Publication Chair(s)" members={publicationChairs} />
+            <CommitteeSection title="Co-Publication Chair(s)" members={coPublicationChairs} />
             <CommitteeSection title="Awards Chair(s)" members={awardsChairs} />
             <CommitteeSection title="Advisory Committee" members={advisoryCommittee} />
             <CommitteeSection title="Technical Program Committee" members={technicalProgramCommittee} />

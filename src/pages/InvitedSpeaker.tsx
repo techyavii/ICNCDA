@@ -122,6 +122,19 @@ const InvitedSpeakers = () => {
   profilePic: "invited-speakers/praveen-chaitanya-jakku.jpeg",
   country: "",
   city: "",
+},
+{
+  name: "Sai Saketh Cherukuri",
+  designation: "Independent Researcher",
+  company: "Independent",
+  experience: "2 Years",
+  email: "ssaketh.2002@gmail.com",
+  conferenceLink: "https://www.icncda.co.uk/",
+  areaOfResearch:
+    "ML Systems, LLM Inference, GPU Performance Profiling, Serving Optimization, KV Cache Analysis, AI Infrastructure",
+  profilePic: "invited-speakers/a.jpeg",
+  country: "",
+  city: "",
 }
   
 ];
