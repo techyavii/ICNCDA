@@ -200,6 +200,20 @@ const InvitedSpeakers = () => {
   profilePic: "keynote-speakers/rowsan-jahan-bhuiyan.jpeg",
   country: "USA",
   city: "",
+},
+{
+  name: "Asadullah Saif Mohammed",
+  designation: "Senior Technical Program Manager and Independent Researcher",
+  company: "Independent Researcher",
+  experience: "20+ Years",
+  email: "",
+  conferenceLink: "https://www.icncda.co.uk/",
+  titleOfTalk: "Artificial Intelligence and Digital Transformation: Driving Enterprise Innovation Through Strategic Program Management",
+  abstract: "This keynote explores how Artificial Intelligence and Generative AI are transforming enterprise innovation, digital transformation, and project management. It highlights the role of AI-driven strategies, governance frameworks, and technology leadership in enabling organizations to improve operational efficiency, accelerate innovation, and successfully execute large-scale digital transformation initiatives.",
+  profile: "Asadullah Saif Mohammed is a Senior Technical Program Manager and Independent Researcher with over 20 years of experience leading enterprise technology and digital transformation initiatives. His expertise spans Artificial Intelligence, Generative AI, Project and Program Management, Enterprise Technology Strategy, and IT Governance. He is a published author, peer reviewer for international journals and conferences, invited keynote speaker, and contributor to peer-reviewed scholarly publications. His research focuses on applying AI to enterprise innovation, digital transformation, and project management.",
+  profilePic: "keynote-speakers/asadullah-saif-mohammed.jpeg",
+  country: "",
+  city: "",
 }
 ];
 
