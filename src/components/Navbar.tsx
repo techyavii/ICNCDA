@@ -60,7 +60,16 @@ const Navbar: React.FC = () => {
       ]
     },
     { name: 'Committee', href: '/committee' },
-    { name: 'Awards', href: '/awards' },
+    { 
+      name: 'Awards', 
+      href: '#awards', 
+      hasDropdown: true,
+      dropdownItems: [
+        { name: 'Awards', href: '/awards' },
+        { name: 'ICNCDA 2026 Awards Results', href: '/icncda-awards-results' },
+        // { name: 'Best Paper Awards', href: '/best-paper-awards' },
+      ]
+    },
     { name: 'Registration', href: '/registration' },
     { name: 'Publications', href: '/publications' },
     { name: 'Industry Invited Speakers', href: '/invited-speakers' },
