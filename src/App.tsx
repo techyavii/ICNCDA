@@ -25,6 +25,7 @@ import InvitedSpeakers from './pages/InvitedSpeaker';
 import IcnAwards from './pages/IcnAwards';
 import KeynoteSpeakers from './pages/KeynoteSpeakers';
 import IcncdaAwardResults from './pages/IcncdaAwardResults';
+import BestPaperAwards from './pages/BestPaperAwards';
 
 const queryClient = new QueryClient();
 
@@ -55,6 +56,7 @@ const App: React.FC = () => (
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/awards" element={<IcnAwards />} />
               <Route path="/icncda-awards-results" element={<IcncdaAwardResults />} />
+              <Route path="/best-paper-awards" element={<BestPaperAwards />} />
               <Route path="/keynote-speakers" element={<KeynoteSpeakers />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
