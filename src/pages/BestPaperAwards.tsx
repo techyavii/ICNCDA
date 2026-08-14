@@ -76,6 +76,11 @@ const BestPaperAwards: React.FC = () => {
       id: 13,
       title: 'Agentic AI–Driven Supply Chain Orchestration Using Large Language Models and Predictive Demand Intelligence',
       authors: 'Pradeep Kachakayala'
+    },
+    {
+      id: 14,
+      title: 'AI-Enabled Adaptive Communication Framework for Distributed Network Resource Management',
+      authors: 'Sarvesh Gupta'
     }
   ];
 
