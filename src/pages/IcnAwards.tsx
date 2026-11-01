@@ -304,7 +304,7 @@ const specialRecognitionAwards = [
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold text-black">25th July 2026</p>
+                <p className="text-2xl font-bold text-black">10th January 2027</p>
               </CardContent>
             </Card>
             <Card className="border border-gray-200 bg-white shadow-sm">
@@ -315,7 +315,7 @@ const specialRecognitionAwards = [
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold text-black">27th July 2026</p>
+                <p className="text-2xl font-bold text-black">15th January 2027</p>
               </CardContent>
             </Card>
           </div>
@@ -605,7 +605,7 @@ const specialRecognitionAwards = [
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://forms.gle/tnfTwxY7mb1LjFxy5"
+                href="https://forms.gle/i7ynA2KJCVNhVVDL6"
                 target="_blank"
                 rel="noopener noreferrer"
               >
