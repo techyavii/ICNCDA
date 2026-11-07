@@ -66,14 +66,31 @@ const Navbar: React.FC = () => {
       hasDropdown: true,
       dropdownItems: [
         { name: 'Awards', href: '/awards' },
-        { name: 'ICNCDA 2026 Awards Results', href: '/icncda-awards-results' },
+        { name: 'ICNCDA 2027 Awards Results', href: '/icncda-awards-results' },
         { name: 'Best Paper Awards', href: '/best-paper-awards' },
       ]
     },
     { name: 'Registration', href: '/registration' },
     { name: 'Publications', href: '/publications' },
-    { name: 'Industry Invited Speakers', href: '/invited-speakers' },
-    { name: 'Industry Keynote Speakers', href: '/keynote-speakers' },
+    {
+      name: 'Industry Invited Speakers',
+      href: '#invited-speakers',
+      hasDropdown: true,
+      dropdownItems: [
+        { name: '2026 Invited Speaker', href: '/invited-speakers-2026' },
+        { name: '2027 Invited Speaker', href: '/invited-speakers-2027' }
+      ]
+    },
+    {
+      name: 'Industry Keynote Speakers',
+      href: '#keynote-speakers',
+      hasDropdown: true,
+      dropdownItems: [
+        { name: '2026 Keynote Speaker', href: '/keynote-speakers-2026' },
+        { name: '2027 Keynote Speaker', href: '/keynote-speakers-2027' }
+      ]
+    },
+    { name: 'Previous Conference', href: '/previous-conference' },
     { name: 'Conference Venue', href: '/conference-venue' },
     { name: 'Downloads', href: '/downloads' },
     { name: 'Privacy Policy', href: '/privacy-policy' }
@@ -86,10 +103,10 @@ const Navbar: React.FC = () => {
       }`}
       style={{ backgroundColor: '#fff' }}
     >
-      <div className="max-w-screen-2xl mx-auto px-6 flex justify-between items-center h-16">
-        <Link to="/" className="text-xl font-bold font-druk text-black">ICNCDA 2026</Link>
+      <div className="w-full px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
+        <Link to="/" className="text-xl font-bold font-druk text-black whitespace-nowrap">ICNCDA 2027</Link>
         
-        <div className="hidden lg:flex space-x-2">
+        <div className="hidden xl:flex flex-1 justify-between items-center ml-4 2xl:ml-8">
           {navLinks.map((link) => (
             <div
               key={link.name}
@@ -98,7 +115,7 @@ const Navbar: React.FC = () => {
               {link.href.startsWith('/') ? (
                 <Link 
                   to={link.href} 
-                  className="font-graphik font-medium hover:bg-[#333333] hover:text-white transition-colors text-black flex items-center px-3 py-2 text-sm rounded"
+                  className="font-graphik font-medium hover:bg-[#333333] hover:text-white transition-colors text-black flex items-center px-1.5 2xl:px-2 py-2 text-xs 2xl:text-sm rounded whitespace-nowrap"
                   onClick={(e) => {
                     if (link.hasDropdown) {
                       e.preventDefault();
@@ -112,7 +129,7 @@ const Navbar: React.FC = () => {
               ) : (
                 <a 
                   href={link.href} 
-                  className="font-graphik font-medium hover:bg-[#333333] hover:text-white transition-colors text-black flex items-center px-3 py-2 text-sm rounded"
+                  className="font-graphik font-medium hover:bg-[#333333] hover:text-white transition-colors text-black flex items-center px-1.5 2xl:px-2 py-2 text-xs 2xl:text-sm rounded whitespace-nowrap"
                   onClick={(e) => {
                     if (link.hasDropdown) {
                       e.preventDefault();
@@ -147,7 +164,7 @@ const Navbar: React.FC = () => {
         </div>
         
         <button 
-          className="lg:hidden text-2xl"
+          className="xl:hidden text-2xl"
           onClick={toggleMobileMenu}
           aria-label="Toggle menu"
         >
@@ -157,7 +174,7 @@ const Navbar: React.FC = () => {
       
       {/* Mobile menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-white text-black border-t border-gray-200">
+        <div className="xl:hidden bg-white text-black border-t border-gray-200">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-2">
             {navLinks.map((link) => (
               <div key={link.name}>
@@ -208,23 +225,21 @@ const Navbar: React.FC = () => {
                 
                 {link.hasDropdown && link.dropdownItems && (
                   <div className="pl-4 mt-1 border-l-2 border-gray-200 space-y-2">
-                    {link.dropdownItems.map((item) => {
-                      console.log(item)
-                      return(
+                    {link.dropdownItems.map((item) => (
                       <Link
                         key={item.name}
                         to={item.href}
                         className="block py-1 px-2 text-sm hover:bg-[#333333] hover:text-white rounded"
                         onClick={() => {
-                          console.log("ERror")
                           setTimeout(() => {
                             setMobileMenuOpen(false);
                             setActiveDropdown(null);
-                          }, 100)}}
+                          }, 100);
+                        }}
                       >
                         {item.name}
                       </Link>
-                      )})}
+                    ))}
                   </div>
                 )}
               </div>

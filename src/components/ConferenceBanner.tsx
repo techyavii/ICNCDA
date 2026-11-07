@@ -26,15 +26,15 @@ const ConferenceBanner = () => {
         {/* Center - Conference Details */}
         <div className="text-center text-white flex-grow">
           <h1 className="text-lg md:text-2xl font-medium tracking-tight mb-2">
-            International Conference on Networks, Computing Systems, and Data Analytics
+            2nd International Conference on Networks, Computing Systems, and Data Analytics
           </h1>
-          <h2 className="text-base md:text-xl font-medium mb-2">(ICNCDA 2026)</h2>
+          <h2 className="text-base md:text-xl font-medium mb-2">(ICNCDA 2027)</h2>
           <p className="text-sm md:text-base font-medium mb-2">
             Organiser: University of Essex, England, UK
           </p>
           <div className="flex items-center justify-center text-sm md:text-base mb-2">
             <Calendar className="mr-2" size={16} />
-            <p>July 29-30, 2026</p>
+            <p>June 28-29, 2027</p>
           </div>
           <p className="text-sm md:text-base font-medium text-yellow-300">
             Premier global forum for networking, computing, and data-driven technologies

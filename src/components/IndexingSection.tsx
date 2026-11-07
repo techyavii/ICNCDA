@@ -9,10 +9,10 @@ const IndexingSection: React.FC = () => {
         <div className="bg-blue-600 text-white py-2 mb-8 overflow-hidden">
           <div className="animate-marquee whitespace-nowrap">
             <span className="text-lg font-bold mx-8">
-              ICNCDA 2026: PREMIER GLOBAL FORUM FOR NETWORKS, COMPUTING SYSTEMS, AND DATA ANALYTICS
+              ICNCDA 2027: PREMIER GLOBAL FORUM FOR NETWORKS, COMPUTING SYSTEMS, AND DATA ANALYTICS
             </span>
             <span className="text-lg font-bold mx-8">
-              JOIN US AT UNIVERSITY OF ESSEX, ENGLAND, UK • 29-30 MAY 2026
+              JOIN US AT UNIVERSITY OF ESSEX, ENGLAND, UK • 28-29 JUNE 2027
             </span>
             <span className="text-lg font-bold mx-8">
               EXPLORING NETWORKING, COMPUTING, AND DATA-DRIVEN TECHNOLOGIES
@@ -23,17 +23,17 @@ const IndexingSection: React.FC = () => {
         {/* Conference Mode Banner */}
         <div className="text-center mb-8">
           <h2 className="text-blue-600 font-bold text-xl md:text-2xl mb-2">
-            ICNCDA 2026 Conference Information
+            ICNCDA 2027 Conference Information
           </h2>
           <p className="text-blue-600 font-semibold text-lg">
-            [ July 29-30, 2026 - University of Essex, England, UK ]
+            [ June 28-29, 2027 - University of Essex, England, UK ]
           </p>
         </div>
 
         {/* Publication Info */}
         <div className="text-center mb-8">
           <h3 className="text-gray-700 font-bold text-lg md:text-xl uppercase tracking-wide">
-            All the accepted papers will be published in the proceedings of ICNCDA 2026.
+            All the accepted papers will be published in the proceedings of ICNCDA 2027.
           </h3>
         </div>
 

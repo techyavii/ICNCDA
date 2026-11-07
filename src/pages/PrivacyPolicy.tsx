@@ -17,7 +17,7 @@ const PrivacyPolicy = () => {
 
             <h3 className="text-xl font-semibold mb-3">1. Personal Information that we process</h3>
             <p className="mb-4 text-justify">
-              For the purposes of this privacy statement, 'Personal Information' is any data which relates to an individual who may be identified from that data, or from a combination of a set of data, and other information which is in possession of ICNCDA-2026. In general, you may browse our website without providing any Personal Information about yourself. However, we collect certain information such as:
+              For the purposes of this privacy statement, 'Personal Information' is any data which relates to an individual who may be identified from that data, or from a combination of a set of data, and other information which is in possession of ICNCDA-2027. In general, you may browse our website without providing any Personal Information about yourself. However, we collect certain information such as:
             </p>
             <ul className="list-disc pl-6 mb-4 space-y-2">
               <li>Information that you provide via our website, including information you provide when you register on our website e.g. name, email address, designation, company, country and telephone number</li>
@@ -55,11 +55,11 @@ const PrivacyPolicy = () => {
 
             <h2 className="text-2xl font-semibold mb-4 text-goldsmiths-blue">III. Data recipients, transfer, and disclosure of Personal Information:</h2>
             <p className="mb-4 text-justify">
-              ICNCDA-2026 does not share your Personal Information with third parties for marketing purposes without seeking your prior permission.
+              ICNCDA-2027 does not share your Personal Information with third parties for marketing purposes without seeking your prior permission.
             </p>
             <p className="mb-2">We share your Personal Information within</p>
             <ul className="list-disc pl-6 mb-6 space-y-2">
-              <li>ICNCDA-2026 or with any of its subsidiaries;</li>
+              <li>ICNCDA-2027 or with any of its subsidiaries;</li>
               <li>Business partners;</li>
               <li>Service vendors;</li>
               <li>Authorized third-party agents; or</li>
@@ -76,7 +76,7 @@ const PrivacyPolicy = () => {
 
             <h2 className="text-2xl font-semibold mb-4 text-goldsmiths-blue">VI. Data security</h2>
             <p className="mb-6 text-justify">
-              ICNCDA-2026 adopts reasonable and appropriate security practices and procedures including administrative, physical security, and technical controls in order to safeguard your Personal Information.
+              ICNCDA-2027 adopts reasonable and appropriate security practices and procedures including administrative, physical security, and technical controls in order to safeguard your Personal Information.
             </p>
 
             <h2 className="text-2xl font-semibold mb-4 text-goldsmiths-blue">VII. Data retention</h2>
@@ -89,12 +89,12 @@ const PrivacyPolicy = () => {
               Our privacy practices regarding Personal Information that we collect and store about you through our portals will be as per the privacy policy of those portals.
             </p>
             <p className="mb-6 text-justify">
-              ICNCDA-2026 provides links to third-party websites and services. However, ICNCDA-2026 is not responsible for the privacy statements, practices, or the contents of such third-party websites.
+              ICNCDA-2027 provides links to third-party websites and services. However, ICNCDA-2027 is not responsible for the privacy statements, practices, or the contents of such third-party websites.
             </p>
 
             <h2 className="text-2xl font-semibold mb-4 text-goldsmiths-blue">IX. Updates to this privacy statement</h2>
             <p className="mb-6 text-justify">
-              ICNCDA-2026 may change the data privacy practices and update this privacy statement as and when the need arises, and the same will be made available on the website. But our commitment to protect the privacy of website users will continue to remain.
+              ICNCDA-2027 may change the data privacy practices and update this privacy statement as and when the need arises, and the same will be made available on the website. But our commitment to protect the privacy of website users will continue to remain.
             </p>
           </div>
         </div>

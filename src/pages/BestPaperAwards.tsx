@@ -94,7 +94,7 @@ const BestPaperAwards: React.FC = () => {
               <h1 className="text-4xl font-bold text-gray-900">Best Paper Awards</h1>
             </div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Celebrating outstanding research contributions at ICNCDA 2026. These papers represent the pinnacle of innovation and excellence in their respective fields.
+              Celebrating outstanding research contributions at ICNCDA 2027. These papers represent the pinnacle of innovation and excellence in their respective fields.
             </p>
           </div>
 
@@ -135,7 +135,7 @@ const BestPaperAwards: React.FC = () => {
               <p className="text-gray-600 leading-relaxed">
                 These distinguished papers were selected through rigorous peer review and evaluation by our expert committee.
                 Each submission represents cutting-edge research that advances knowledge and innovation in networks, computing
-                systems, data analytics, and related fields. Congratulations to all the authors for their outstanding contributions to ICNCDA 2026.
+                systems, data analytics, and related fields. Congratulations to all the authors for their outstanding contributions to ICNCDA 2027.
               </p>
             </div>
           </div>

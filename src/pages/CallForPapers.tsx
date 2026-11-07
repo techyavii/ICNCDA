@@ -6,17 +6,17 @@ const CallForPapers: React.FC = () => {
     <div className="min-h-screen flex flex-col">
       <div className="container mx-auto px-4 py-12 flex-grow">
         <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
-          <h1 className="font-druk text-3xl md:text-4xl text-[#001324] mb-6">Call for Papers — ICNCDA 2026</h1>
+          <h1 className="font-druk text-3xl md:text-4xl text-[#001324] mb-6">Call for Papers — ICNCDA 2027</h1>
 
           <div className="mb-8">
             <p className="font-publico text-lg mb-4">
-              International Conference on Networks, Computing Systems, and Data Analytics (ICNCDA 2026) aims to bring together leading academicians, researchers, innovators, and industry experts to explore cutting-edge advancements in smart technologies and their role in building sustainable systems for the future.
+              2nd 2nd International Conference on Networks, Computing Systems, and Data Analytics (ICNCDA 2027) aims to bring together leading academicians, researchers, innovators, and industry experts to explore cutting-edge advancements in smart technologies and their role in building sustainable systems for the future.
             </p>
             <p className="font-publico text-lg mb-4">
               In today’s rapidly evolving digital landscape, the convergence of Artificial Intelligence (AI), Internet of Things (IoT), Smart Grids, Green Energy, Blockchain, Cloud Computing, and Data Analytics plays a transformative role in shaping sustainable societies. This conference serves as a premier platform to exchange ideas, present novel research, and discuss innovative solutions that address global challenges such as climate change, energy efficiency, smart cities, sustainable manufacturing, and digital governance.
             </p>
             <p className="font-publico text-lg">
-              ICNCDA 2026 will feature keynote lectures, technical paper presentations, panel discussions, industry sessions, and workshops designed to foster collaboration between academia and industry. We invite original and unpublished research contributions in (but not limited to) the thematic areas below.
+              ICNCDA 2027 will feature keynote lectures, technical paper presentations, panel discussions, industry sessions, and workshops designed to foster collaboration between academia and industry. We invite original and unpublished research contributions in (but not limited to) the thematic areas below.
             </p>
           </div>
 
@@ -94,10 +94,10 @@ const CallForPapers: React.FC = () => {
             <h3 className="font-druk text-xl text-[#001324] mb-4">Important Dates</h3>
             <ul className="list-disc pl-6 space-y-2 font-graphik">
               <li>Paper Submission Deadline: <strong>30th December 2025</strong></li>
-              <li>Acceptance Notification Due: <strong>30th January 2026</strong></li>
-              <li>Registration Due: <strong>30th December 2025</strong></li>
-              <li>Camera Ready Submission: <strong>30th January 2026</strong></li>
-              <li>Conference Dates: <strong>22nd - 23rd July 2026</strong></li>
+              <li>Acceptance Notification Due: <strong>30th January 2027</strong></li>
+              <li>Registration Due: <strong>15th June 2027</strong></li>
+              <li>Camera Ready Submission: <strong>30th January 2027</strong></li>
+              <li>Conference Dates: <strong>28th - 29th June 2027</strong></li>
             </ul>
           </div> */}
 

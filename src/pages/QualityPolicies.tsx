@@ -9,23 +9,23 @@ const QualityPolicies: React.FC = () => {
           <h1 className="font-druk text-3xl md:text-4xl text-[#001324] mb-8">Quality Policies</h1>
           
           <p className="font-graphik text-lg mb-6">
-            By submitting papers to ICNCDA 2026, authors are agreeing to the following terms and conditions of the conference.
-            ICNCDA 2026 to follow Publication Ethics as laid out and followed by reputed international bodies/societies like COPE, Springer etc.
+            By submitting papers to ICNCDA 2027, authors are agreeing to the following terms and conditions of the conference.
+            ICNCDA 2027 to follow Publication Ethics as laid out and followed by reputed international bodies/societies like COPE, Springer etc.
           </p>
           
           <div className="mb-10">
             <h2 className="font-druk text-2xl text-[#001324] mb-4">DECLARATION BY THE AUTHORS</h2>
             <p className="font-graphik mb-4">
-              By submitting papers to ICNCDA 2026, authors are making the following declarations -
+              By submitting papers to ICNCDA 2027, authors are making the following declarations -
             </p>
             <ul className="list-disc pl-6 space-y-2 font-graphik">
-              <li>The work that has been submitted to ICNCDA 2026 is the original work carried out by the author(s) of the paper.</li>
+              <li>The work that has been submitted to ICNCDA 2027 is the original work carried out by the author(s) of the paper.</li>
               <li>All the authors have made significant contribution in the reported work, as well as in writing the paper [Applicable if there are more than one author in the paper].</li>
               <li>The submitter/corresponding author declares that he/she has obtained the consents of all the co-authors before including their names in the paper [Applicable if there are more than one author in the paper].</li>
-              <li>The paper is currently not under review for publication in any other conference or journal, and it will not be sent to any other conference or journal for consideration while it is under review in ICNCDA 2026.</li>
+              <li>The paper is currently not under review for publication in any other conference or journal, and it will not be sent to any other conference or journal for consideration while it is under review in ICNCDA 2027.</li>
               <li>If the paper gets accepted after a review, one of the authors of the accepted paper will register and attend the conference and will make a presentation about work reported in the paper.</li>
-              <li>I/we assure ICNCDA 2026 organizers that I/we will follow all the publication ethics of peer-reviewed conference.</li>
-              <li>ICNCDA 2026 to follow Publication Ethics as laid out and followed by reputed international bodies/societies like COPE, Springer etc.</li>
+              <li>I/we assure ICNCDA 2027 organizers that I/we will follow all the publication ethics of peer-reviewed conference.</li>
+              <li>ICNCDA 2027 to follow Publication Ethics as laid out and followed by reputed international bodies/societies like COPE, Springer etc.</li>
             </ul>
           </div>
           

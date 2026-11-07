@@ -44,7 +44,7 @@ const AboutUs: React.FC = () => {
                   The university has strengths in various fields, including sociology, economics, politics, and modern languages, with its main campus featuring separate north, central, and south areas containing accommodation, academic buildings, and student facilities like libraries, sports centers, and social spaces.
                 </p>
                 <p className="font-publico text-lg text-goldsmiths-text leading-relaxed">
-                  The University of Essex is committed to excellence in research and education, fostering an environment that encourages innovation, collaboration, and global engagement. The university's commitment to international collaboration and cutting-edge research makes it an ideal host for the International Conference on Networks, Computing Systems, and Data Analytics (ICNCDA 2026).
+                  The University of Essex is committed to excellence in research and education, fostering an environment that encourages innovation, collaboration, and global engagement. The university's commitment to international collaboration and cutting-edge research makes it an ideal host for the 2nd 2nd International Conference on Networks, Computing Systems, and Data Analytics (ICNCDA 2027).
                 </p>
               </div>
             </div>

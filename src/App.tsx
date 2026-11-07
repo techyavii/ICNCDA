@@ -26,6 +26,7 @@ import IcnAwards from './pages/IcnAwards';
 import KeynoteSpeakers from './pages/KeynoteSpeakers';
 import IcncdaAwardResults from './pages/IcncdaAwardResults';
 import BestPaperAwards from './pages/BestPaperAwards';
+import PreviousConference from './pages/PreviousConference';
 
 const queryClient = new QueryClient();
 
@@ -50,6 +51,8 @@ const App: React.FC = () => (
               <Route path="/registration" element={<Registration />} />
               <Route path="/checkout" element={<CheckoutForm />} />
               <Route path="/invited-speakers" element={<InvitedSpeakers />} />
+              <Route path="/invited-speakers-2026" element={<InvitedSpeakers />} />
+              <Route path="/invited-speakers-2027" element={<InvitedSpeakers />} />
               <Route path="/publications" element={<Publications />} />
               <Route path="/conference-venue" element={<ConferenceVenue />} />
               <Route path="/downloads" element={<Downloads />} />
@@ -58,6 +61,9 @@ const App: React.FC = () => (
               <Route path="/icncda-awards-results" element={<IcncdaAwardResults />} />
               <Route path="/best-paper-awards" element={<BestPaperAwards />} />
               <Route path="/keynote-speakers" element={<KeynoteSpeakers />} />
+              <Route path="/keynote-speakers-2026" element={<KeynoteSpeakers />} />
+              <Route path="/keynote-speakers-2027" element={<KeynoteSpeakers />} />
+              <Route path="/previous-conference" element={<PreviousConference />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>

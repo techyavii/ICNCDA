@@ -14,16 +14,16 @@ const Hero: React.FC = () => {
     >
       <div className="container mx-auto px-4 py-14 text-center text-white">
         <h1 className="font-druk text-3xl md:text-5xl lg:text-6xl mb-4 leading-tight text-center">
-          International Conference on<br />Smart Technologies & Sustainable Systems
+          2nd International Conference on<br />Networks, Computing Systems, and Data Analytics
         </h1>
         <h2 className="font-graphik text-xl md:text-2xl lg:text-3xl mb-6 text-goldsmiths-yellow text-center">
-          (ICNCDA 2026)
+          (ICNCDA 2027)
         </h2>
         <p className="font-graphik text-lg md:text-xl mb-8 text-center">
-          5-6th June 2026 — Dong Nai Technology University, Vietnam
+          June 28-29, 2027 — University of Essex, England, UK
         </p>
         <p className="font-publico text-base md:text-lg mb-8 text-center">
-          Bringing together researchers and industry on AI, IoT, Smart Grids, Green Energy, and sustainable systems
+          Organiser: University of Essex, England, UK
         </p>
         <button className="bg-goldsmiths-yellow text-goldsmiths-text hover:bg-opacity-90 transition-colors font-graphik font-bold py-3 px-8 rounded-md text-lg">
           Register Now

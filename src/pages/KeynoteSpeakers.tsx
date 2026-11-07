@@ -1,240 +1,95 @@
-import Footer from '@/components/Footer';
-import InvitedSpeakerCard from '@/components/InvitedSpeakerCard';
+﻿import Footer from '@/components/Footer';
+import KeynoteSpeakerCard from '@/components/KeynoteSpeakerCard';
+import { useLocation } from 'react-router-dom';
 
-const InvitedSpeakers = () => {
-    const speakers = [
-    {
-    name: "Swetha Sree Kommuri",
-    designation: "Lead Data Scientist",
-    company: "Independent Researcher",
-    experience: "10+ Years",
-    email: "Swethakommuri0@gmail.com",
-    conferenceLink: "",
-    titleOfTalk: "The Economics of Intelligence: How Real-Time ML Transformed Fraud Detection Pipelines",
-    abstract: "",
-    profilePic: "keynote-speakers/swetha-sree-kommuri.jpg",
-    country: "United States",
-    city: "",
-},
-{
-    name: "Jeevan Reddy Geereddy",
-    designation: "Senior Technical Specialist",
-    company: "Independent Researcher",
-    experience: "10 Years",
-    email: "jeevan.geereddy@gmail.com",
-    conferenceLink: "",
-    titleOfTalk: "Beyond Open Banking: Building a Self-Serve Analytics Economy on a Foundation of Trust",
-    abstract: "",
-    profilePic: "keynote-speakers/jeevan-reddy-geereddy.png",
-    country: "United States",
-    city: "",
-},
-{
-    name: "Anil Kumar Batchu",
-    designation: "Software Engineer",
-    company: "Independent Researcher",
-    experience: "18+ Years",
-    email: "anilkumar.batchu1974@gmail.com",
-    conferenceLink: "",
-    titleOfTalk: "Beyond the Cloud: AI-Native Platforms and the Future of Financial Technology",
-    abstract: "",
-    profilePic: "keynote-speakers/anil-kumar-batchu.png",
-    country: "United States",
-    city: "",
-},
-{
-    name: "Saddam Hussain",
-    designation: "Data Scientist",
-    company: "Independent Researcher",
-    experience: "8+ Years",
-    email: "im.saddamhussain96@gmail.com",
-    conferenceLink: "",
-    titleOfTalk: "Optimizing Industrial Quality & Emissions Simultaneously: ML-Driven Lime Kiln Control for Better Production and Kiln Operations and Higher Yield",
-    abstract: "",
-    profilePic: "keynote-speakers/saddam-hussain.jpg",
-    country: "United States",
-    city: "",
-},
-{
-    name: "Zalak Shrof Aka Makwana",
-    designation: "Lead Architect",
-    company: "Independent Researcher",
-    experience: "10+ Years",
-    email: "shrofzalak@gmail.com",
-    conferenceLink: "",
-    titleOfTalk: "Predictive Networks: A Data-Centric Approach to Proactive Infrastructure Management",
-    abstract: "",
-    profilePic: "keynote-speakers/zalak-shrof-aka-makwana.png",
-    country: "United States",
-    city: "",
-},
-{
-    name: "Suresh Kumar Grandhisiri",
-    designation: "Director",
-    company: "Independent Researcher",
-    experience: "28+ Years",
-    email: "sureshgrandhisiri13@gmail.com",
-    conferenceLink: "",
-    titleOfTalk: "Bridging Enterprise Legacy Systems with Generative AI for Autonomous Operations",
-    abstract: "",
-    profilePic: "keynote-speakers/suresh-kumar-grandhisiri.jpg",
-    country: "India",
-    city: "",
-},
-{
-    name: "Pramod Kumar Salla",
-    designation: "Software Engineer III",
-    company: "Independent Researcher",
-    experience: "9+ Years",
-    email: "pramodksalla@gmail.com",
-    conferenceLink: "",
-    titleOfTalk: "The AI-Augmented Engineer: Building Autonomous Systems That Write Their Own Documentation",
-    abstract: "",
-    profilePic: "keynote-speakers/pramod-kumar-salla.jpg",
-    country: "United States",
-    city: "",
-},
-{
-    name: "Jagadeesh Vasanthada",
-    designation: "",
-    company: "Kyyte Inc",
-    experience: "",
-    email: "",
-    conferenceLink: "",
-    titleOfTalk: "",
-    abstract: "",
-    profilePic: "keynote-speakers/jagadeesh-vasanthada.jpg",
-    country: "United States",
-    city: "",
-},
-{
-    name: "Sneha Shambula",
-    designation: "",
-    company: "Amazon Web Services, Inc",
-    experience: "",
-    email: "",
-    conferenceLink: "",
-    titleOfTalk: "",
-    abstract: "",
-    profilePic: "keynote-speakers/sneha-shambula.jpg",
-    country: "United States",
-    city: "",
-},
-{
-    name: "Vivek Venkatesan",
-    designation: "",
-    company: "The Vanguard Group",
-    experience: "",
-    email: "",
-    conferenceLink: "",
-    titleOfTalk: "",
-    abstract: "",
-    profilePic: "keynote-speakers/vivek-venkatesan.jpg",
-    country: "United States",
-    city: "",
-},
-{
-    name: "Sai Sukesh Reddy Tummuri",
-    designation: "",
-    company: "Meta Platforms Inc",
-    experience: "",
-    email: "",
-    conferenceLink: "",
-    titleOfTalk: "",
-    abstract: "",
-    profilePic: "keynote-speakers/sai-sukesh-reddy-tummuri.jpg",
-    country: "United States",
-    city: "",
-},
-{
-  name: "Milan Dudhatra",
-  designation: "Software Engineer, Independent Researcher",
-  company: "Independent Researcher",
-  experience: "7+ Years",
-  email: "milangdudhatra@gmail.com",
-  conferenceLink: "https://www.icncda.co.uk/",
-  titleOfTalk: "Predict Before You Repair: The Future of Failure Prevention in Distributed Systems",
-  abstract: "This keynote explores the evolution of distributed systems from reactive failure management to predictive and autonomous reliability engineering. It discusses how AI-assisted operations (AIOps), observability, event-driven architectures, and self-healing cloud platforms can predict failures before they occur, minimize downtime, and improve the resilience of large-scale cloud infrastructure. Drawing from real-world experience in fleet-scale systems, the session highlights modern approaches to predictive reliability, intelligent automation, and the future of autonomous infrastructure.",
-  profilePic: "keynote-speakers/milan-dudhatra.jpg",
-  country: "United States",
-  city: "",
-},
-{
-  name: "Harish Janardhanan",
-  designation: "Software Development Manager",
-  company: "Fareportal Inc.",
-  experience: "23+ Years",
-  email: "harishjan@gmail.com",
-  conferenceLink: "https://www.icncda.co.uk/",
-  titleOfTalk: "Building Resilient and Robust AI Systems: From Adaptive Cybersecurity to Privacy-Preserving Distributed Intelligence",
-  abstract: "Dependable AI requires security, privacy, scalability, and sustainability. This keynote presents three research pillars: adaptive cybersecurity, federated learning for privacy-preserving edge intelligence, and hierarchical reinforcement learning for autonomous systems. It introduces a unified framework combining Hierarchical RL, Retrieval-Augmented Generation (RAG), and the Model Context Protocol (MCP) to build secure, dependable, scalable, and cost-effective AI systems across diverse industries.",
-  profile: "Harish Janardhanan is an IEEE Senior Member and Distinguished Fellow of the Soft Computing Research Society. He holds an M.S. from Boston University and has over 23 years of experience as a technology leader. Currently serving as Software Development Manager at Fareportal Inc., his research focuses on AI security, privacy, and autonomous systems. He has received the Apex Award and International TechXcellence Leadership Award and actively contributes as a peer reviewer for numerous IEEE conferences.",
-  profilePic: "keynote-speakers/harish-janardhanan.jpeg",
-  country: "United States",
-  city: "New York",
-},
-{
-  name: "Venkata M. Kancherla",
-  designation: "Senior DevOps Engineer",
-  company: "Capgemini",
-  experience: "15+ Years",
-  email: "venkata.kancherla@outlook.com",
-  conferenceLink: "https://www.icncda.co.uk/keynote-speakers",
-  titleOfTalk: "Federated Anomaly Detection in Kubernetes-Orchestrated MLOps Pipelines: A Zero Trust Approach to Securing Distributed AI Workloads",
-  abstract: "This keynote presents a federated learning framework for detecting anomalies across Kubernetes-based MLOps pipelines without centralizing sensitive data. It integrates Zero Trust principles, including mutual TLS, micro-segmentation, and continuous validation, to secure distributed AI workloads. Early results demonstrate improved anomaly detection accuracy and reduced latency compared to traditional centralized approaches.",
-  profile: "Venkata M. Kancherla is a Senior DevOps Engineer at Capgemini with over 15 years of experience in cloud infrastructure, Kubernetes orchestration, and security automation. His expertise includes Zero Trust architecture, MLOps pipeline security, AI-driven monitoring, DevSecOps, and Infrastructure as Code. He has published research on federated learning, multi-cloud deployment optimization, and autonomous cloud operations.",
-  profilePic: "keynote-speakers/venkata-m-kancherla.jpeg",
-  country: "India",
-  city: "",
-},
-{
-  name: "Rowsan Jahan Bhuiyan",
-  designation: "Doctoral Researcher in Artificial Intelligence and Machine Learning",
-  company: "University of the Potomac",
-  experience: "14 Years",
-  email: "rowsan.bhuiyan@student.potomac.edu",
-  conferenceLink: "https://www.icncda.co.uk/",
-  titleOfTalk: "Transforming Healthcare with Artificial Intelligence: Recent Advances in Medical Diagnostics and Predictive Analytics",
-  abstract: "This keynote presents a comparative evaluation of machine learning algorithms for breast cancer detection, highlighting their predictive accuracy and clinical effectiveness. It demonstrates how AI can enable early diagnosis, enhance clinical decision-making, reduce healthcare costs, improve patient survival, and promote equitable, data-driven healthcare systems.",
-  profile: "Rowsan Jahan Bhuiyan is a Doctoral Researcher in Artificial Intelligence at the University of the Potomac, USA. Her research focuses on machine learning, explainable AI, clinical decision support systems, and early cancer detection. She develops AI-driven healthcare solutions that improve diagnostic accuracy, support precision medicine, and advance intelligent, data-driven healthcare for patients and medical institutions.",
-  profilePic: "keynote-speakers/rowsan-jahan-bhuiyan.jpeg",
-  country: "USA",
-  city: "",
-},
-{
-  name: "Asadullah Saif Mohammed",
-  designation: "Senior Technical Program Manager and Independent Researcher",
-  company: "Independent Researcher",
-  experience: "20+ Years",
-  email: "",
-  conferenceLink: "https://www.icncda.co.uk/",
-  titleOfTalk: "Artificial Intelligence and Digital Transformation: Driving Enterprise Innovation Through Strategic Program Management",
-  abstract: "This keynote explores how Artificial Intelligence and Generative AI are transforming enterprise innovation, digital transformation, and project management. It highlights the role of AI-driven strategies, governance frameworks, and technology leadership in enabling organizations to improve operational efficiency, accelerate innovation, and successfully execute large-scale digital transformation initiatives.",
-  profile: "Asadullah Saif Mohammed is a Senior Technical Program Manager and Independent Researcher with over 20 years of experience leading enterprise technology and digital transformation initiatives. His expertise spans Artificial Intelligence, Generative AI, Project and Program Management, Enterprise Technology Strategy, and IT Governance. He is a published author, peer reviewer for international journals and conferences, invited keynote speaker, and contributor to peer-reviewed scholarly publications. His research focuses on applying AI to enterprise innovation, digital transformation, and project management.",
-  profilePic: "keynote-speakers/asadullah-saif-mohammed.jpeg",
-  country: "",
-  city: "",
-}
+const keynoteSpeakers2026 = [
+  {
+    name: 'Prof. Dhavalkumar (Dhaval) Thakker',
+    designation: 'Professor of Artificial Intelligence and Internet of Things',
+    company: 'University of Hull',
+    profilePic: 'keynotes/dhaval_thakker.jpg',
+  },
+  {
+    name: 'Prof. Hoang Nga Nguyen',
+    designation: 'Associate Professor (Cybersecurity & Formal Methods)',
+    company: 'Swansea University',
+    profilePic: 'keynotes/hoang_nguyen.jpg',
+  },
+  {
+    name: 'Prof. Sanjaya Kumar Panda',
+    designation: 'Assistant Professor (CSE)',
+    company: 'NIT Warangal',
+    profilePic: 'keynotes/sanjaya_panda.jpg',
+  },
+  {
+    name: 'Prof. Shivani Bali',
+    designation: 'Professor',
+    company: 'Jindal School of Banking & Finance, O.P. Jindal Global University, India',
+    profilePic: 'keynotes/Shivani.jpeg',
+  },
 ];
+
+const keynoteSpeakers2027: typeof keynoteSpeakers2026 = [];
+
+const renderSpeakerGrid = (speakers: typeof keynoteSpeakers2026) => (
+  speakers.length > 0 ? (
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      {speakers.map((speaker, idx) => (
+        <KeynoteSpeakerCard key={`${speaker.name}-${idx}`} {...speaker} />
+      ))}
+    </div>
+  ) : (
+    <div className="rounded-2xl border border-dashed border-slate-300 bg-white p-10 text-center text-slate-600">
+      No keynote speakers announced for 2027 yet.
+    </div>
+  )
+);
+
+const KeynoteSpeakers = () => {
+  const location = useLocation();
+  const isYearSpecificRoute = location.pathname.includes('2026') || location.pathname.includes('2027');
+  const targetYear = location.pathname.includes('2027') ? '2027' : '2026';
+
+  const renderYearSections = () => {
+    if (isYearSpecificRoute) {
+      const selectedSpeakers = targetYear === '2027' ? keynoteSpeakers2027 : keynoteSpeakers2026;
+      return (
+        <div>
+          <h3 className="text-2xl font-bold text-center text-gray-900 mb-6">{targetYear} Keynote Speaker</h3>
+          {renderSpeakerGrid(selectedSpeakers)}
+        </div>
+      );
+    }
+
+    return (
+      <div className="space-y-12">
+        <div>
+          <h3 className="text-2xl font-bold text-center text-gray-900 mb-6">2026 Keynote Speaker</h3>
+          {renderSpeakerGrid(keynoteSpeakers2026)}
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-bold text-center text-gray-900 mb-6">2027 Keynote Speaker</h3>
+          {renderSpeakerGrid(keynoteSpeakers2027)}
+        </div>
+      </div>
+    );
+  };
 
   return (
     <div>
       <section className="py-16 bg-[#f7faff]">
-      <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-3xl font-bold font-publico text-center text-gray-900 mb-12">
-          Keynote Speakers
-        </h2>
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold font-publico text-center text-gray-900 mb-10">
+            Keynote Speaker
+          </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-          {speakers.map((speaker, idx) => (
-            <InvitedSpeakerCard key={idx} {...speaker} />
-          ))}
+          {renderYearSections()}
         </div>
-      </div>
-    </section>
-    <Footer/>
+      </section>
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default InvitedSpeakers
+export default KeynoteSpeakers;

@@ -6,11 +6,11 @@ import { Button } from '@/components/ui/button';
 
 const Downloads = () => {
   const downloadItems = [
-    {
-      name: 'Paper Presentation Schedule',
-      link: '/Paper_Presentation_Schedule_ICNCDA 2026.pdf',
-      icon: <FileText className="mr-2" size={18} />
-    },
+    // {
+    //   name: 'Paper Presentation Schedule',
+    //   link: '/Paper_Presentation_Schedule_ICNCDA 2027.pdf',
+    //   icon: <FileText className="mr-2" size={18} />
+    // },
     {
       name: 'Checklist',
       link: '/Checklist.pdf',
@@ -31,31 +31,31 @@ const Downloads = () => {
       link: '/Springer_Latex_Template.zip',
       icon: <FileText className="mr-2" size={18} />
     },
-    {
-      name: 'PowerPoint Template (Adroid)',
-      link: '/ICNCDA_2026_PPT_Template_Adroid.pptx',
-      icon: <FileText className="mr-2" size={18} />
-    },
-    {
-      name: 'PowerPoint Template (Adroid PDF)',
-      link: '/ICNCDA_2026_PPT_Template_Adroid.pdf',
-      icon: <FileText className="mr-2" size={18} />
-    },
-    {
-      name: 'PowerPoint Template (Springer)',
-      link: '/ICNCDA_2026_PPT_Template_Springer.pptx',
-      icon: <FileText className="mr-2" size={18} />
-    },
-    {
-      name: 'PowerPoint Template (Springer PDF)',
-      link: '/ICNCDA_2026_PPT_Template_Springer.pdf',
-      icon: <FileText className="mr-2" size={18} />
-    },
-    {
-      name: 'Licence Form',
-      link: '/Licence_Form.docx',
-      icon: <FileText className="mr-2" size={18} />
-    },
+    // {
+    //   name: 'PowerPoint Template (Adroid)',
+    //   link: '/ICNCDA_2027_PPT_Template_Adroid.pptx',
+    //   icon: <FileText className="mr-2" size={18} />
+    // },
+    // {
+    //   name: 'PowerPoint Template (Adroid PDF)',
+    //   link: '/ICNCDA_2027_PPT_Template_Adroid.pdf',
+    //   icon: <FileText className="mr-2" size={18} />
+    // },
+    // {
+    //   name: 'PowerPoint Template (Springer)',
+    //   link: '/ICNCDA_2027_PPT_Template_Springer.pptx',
+    //   icon: <FileText className="mr-2" size={18} />
+    // },
+    // {
+    //   name: 'PowerPoint Template (Springer PDF)',
+    //   link: '/ICNCDA_2027_PPT_Template_Springer.pdf',
+    //   icon: <FileText className="mr-2" size={18} />
+    // },
+    // {
+    //   name: 'Licence Form',
+    //   link: '/Licence_Form.docx',
+    //   icon: <FileText className="mr-2" size={18} />
+    // },
   ];
 
   return (
