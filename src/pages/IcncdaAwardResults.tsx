@@ -115,11 +115,11 @@ const IcncdaAwardResults: React.FC = () => {
         <div className="text-center mb-12">
           <div className="flex items-center justify-center mb-4">
             <Trophy className="h-12 w-12 text-yellow-500 mr-4" />
-            <h1 className="text-4xl font-bold text-gray-900">ICNCDA 2027 Awards Results</h1>
+            <h1 className="text-4xl font-bold text-gray-900">ICNCDA 2026 Awards Results</h1>
           </div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Celebrating excellence and innovation across academia, industry, and research at the
-            2nd 2nd International Conference on Networks, Computing Systems, and Data Analytics (ICNCDA 2027).
+            2nd 2nd International Conference on Networks, Computing Systems, and Data Analytics (ICNCDA 2026).
             These distinguished individuals have been recognized for their outstanding contributions.
           </p>
         </div>
@@ -176,7 +176,7 @@ const IcncdaAwardResults: React.FC = () => {
               These awards recognize outstanding achievements in various domains including artificial intelligence,
               cloud computing, research innovation, and enterprise solutions. Each recipient has demonstrated
               exceptional leadership, innovation, and impact in their respective fields. Congratulations to all
-              the award winners for their remarkable contributions to ICNCDA 2027.
+              the award winners for their remarkable contributions to ICNCDA 2026.
             </p>
           </div>
         </div>
