@@ -66,7 +66,7 @@ const Navbar: React.FC = () => {
       hasDropdown: true,
       dropdownItems: [
         { name: 'Awards', href: '/awards' },
-        { name: 'ICNCDA 2027 Awards Results', href: '/icncda-awards-results' },
+        { name: 'ICNCDA 2026 Awards Results', href: '/icncda-awards-results' },
         { name: 'Best Paper Awards', href: '/best-paper-awards' },
       ]
     },
