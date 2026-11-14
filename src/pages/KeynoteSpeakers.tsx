@@ -6,7 +6,7 @@ const keynoteSpeakers2026 = [
     {
     name: "Swetha Sree Kommuri",
     designation: "Lead Data Scientist",
-    company: "Independent Researcher",
+    company: "",
     experience: "10+ Years",
     email: "Swethakommuri0@gmail.com",
     conferenceLink: "",
@@ -19,7 +19,7 @@ const keynoteSpeakers2026 = [
 {
     name: "Jeevan Reddy Geereddy",
     designation: "Senior Technical Specialist",
-    company: "Independent Researcher",
+    company: "",
     experience: "10 Years",
     email: "jeevan.geereddy@gmail.com",
     conferenceLink: "",
@@ -32,7 +32,7 @@ const keynoteSpeakers2026 = [
 {
     name: "Anil Kumar Batchu",
     designation: "Software Engineer",
-    company: "Independent Researcher",
+    company: "",
     experience: "18+ Years",
     email: "anilkumar.batchu1974@gmail.com",
     conferenceLink: "",
@@ -45,7 +45,7 @@ const keynoteSpeakers2026 = [
 {
     name: "Saddam Hussain",
     designation: "Data Scientist",
-    company: "Independent Researcher",
+    company: "",
     experience: "8+ Years",
     email: "im.saddamhussain96@gmail.com",
     conferenceLink: "",
@@ -58,7 +58,7 @@ const keynoteSpeakers2026 = [
 {
     name: "Zalak Shrof Aka Makwana",
     designation: "Lead Architect",
-    company: "Independent Researcher",
+    company: "",
     experience: "10+ Years",
     email: "shrofzalak@gmail.com",
     conferenceLink: "",
@@ -71,7 +71,7 @@ const keynoteSpeakers2026 = [
 {
     name: "Suresh Kumar Grandhisiri",
     designation: "Director",
-    company: "Independent Researcher",
+    company: "",
     experience: "28+ Years",
     email: "sureshgrandhisiri13@gmail.com",
     conferenceLink: "",
@@ -84,7 +84,7 @@ const keynoteSpeakers2026 = [
 {
     name: "Pramod Kumar Salla",
     designation: "Software Engineer III",
-    company: "Independent Researcher",
+    company: "",
     experience: "9+ Years",
     email: "pramodksalla@gmail.com",
     conferenceLink: "",
@@ -148,8 +148,8 @@ const keynoteSpeakers2026 = [
 },
 {
   name: "Milan Dudhatra",
-  designation: "Software Engineer, Independent Researcher",
-  company: "Independent Researcher",
+  designation: "Software Engineer",
+  company: "",
   experience: "7+ Years",
   email: "milangdudhatra@gmail.com",
   conferenceLink: "https://www.icncda.co.uk/",
@@ -203,14 +203,14 @@ const keynoteSpeakers2026 = [
 },
 {
   name: "Asadullah Saif Mohammed",
-  designation: "Senior Technical Program Manager and Independent Researcher",
-  company: "Independent Researcher",
+  designation: "Senior Technical Program Manager",
+  company: "",
   experience: "20+ Years",
   email: "",
   conferenceLink: "https://www.icncda.co.uk/",
   titleOfTalk: "Artificial Intelligence and Digital Transformation: Driving Enterprise Innovation Through Strategic Program Management",
   abstract: "This keynote explores how Artificial Intelligence and Generative AI are transforming enterprise innovation, digital transformation, and project management. It highlights the role of AI-driven strategies, governance frameworks, and technology leadership in enabling organizations to improve operational efficiency, accelerate innovation, and successfully execute large-scale digital transformation initiatives.",
-  profile: "Asadullah Saif Mohammed is a Senior Technical Program Manager and Independent Researcher with over 20 years of experience leading enterprise technology and digital transformation initiatives. His expertise spans Artificial Intelligence, Generative AI, Project and Program Management, Enterprise Technology Strategy, and IT Governance. He is a published author, peer reviewer for international journals and conferences, invited keynote speaker, and contributor to peer-reviewed scholarly publications. His research focuses on applying AI to enterprise innovation, digital transformation, and project management.",
+  profile: "Asadullah Saif Mohammed is a Senior Technical Program Manager with over 20 years of experience leading enterprise technology and digital transformation initiatives. His expertise spans Artificial Intelligence, Generative AI, Project and Program Management, Enterprise Technology Strategy, and IT Governance. He is a published author, peer reviewer for international journals and conferences, invited keynote speaker, and contributor to peer-reviewed scholarly publications. His research focuses on applying AI to enterprise innovation, digital transformation, and project management.",
   profilePic: "keynote-speakers/asadullah-saif-mohammed.jpeg",
   country: "",
   city: "",

@@ -19,8 +19,8 @@ const Registration: React.FC = () => {
                 <thead>
                   <tr className="bg-[#f9f5e9]">
                     <th className="border border-gray-300 px-4 py-2 text-left">Category</th>
-                    <th className="border border-gray-300 px-4 py-2 text-left">EARLY REGISTRATION (Before 20th February 2027)</th>
-                    <th className="border border-gray-300 px-4 py-2 text-left">LATE REGISTRATION (After 20th February 2027)</th>
+                    <th className="border border-gray-300 px-4 py-2 text-left">EARLY REGISTRATION (Before 15th May 2027)</th>
+                    <th className="border border-gray-300 px-4 py-2 text-left">LATE REGISTRATION (After 15th May 2027)</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -61,8 +61,8 @@ const Registration: React.FC = () => {
                 <thead>
                   <tr className="bg-[#f9f5e9]">
                     <th className="border border-gray-300 px-4 py-2 text-left">Category</th>
-                    <th className="border border-gray-300 px-4 py-2 text-left">EARLY REGISTRATION (Before  20th February 2027)</th>
-                    <th className="border border-gray-300 px-4 py-2 text-left">LATE REGISTRATION (After  20th February 2027)</th>
+                    <th className="border border-gray-300 px-4 py-2 text-left">EARLY REGISTRATION (Before 15th May 2027)</th>
+                    <th className="border border-gray-300 px-4 py-2 text-left">LATE REGISTRATION (After 15th May 2027)</th>
                   </tr>
                 </thead>
                 <tbody>

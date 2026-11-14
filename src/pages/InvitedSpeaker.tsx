@@ -117,8 +117,8 @@ const invitedSpeakers2026 = [
   },
   {
     name: 'Sai Saketh Cherukuri',
-    designation: 'Independent Researcher',
-    company: 'Independent',
+    designation: '',
+    company: '',
     experience: '2 Years',
     email: 'ssaketh.2002@gmail.com',
     conferenceLink: 'https://www.icncda.co.uk/',
